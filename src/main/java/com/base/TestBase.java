@@ -47,7 +47,6 @@ public abstract class TestBase {
 	 * Initializes the browser driver
 	 */
 	public void initDriver(String browser) {
-
 		String executionMode = CONFIG.getProperty("executionMode");
 		if (executionMode.equalsIgnoreCase("local"))
 			createLocalDriver(browser);

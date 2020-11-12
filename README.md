@@ -13,8 +13,10 @@ Also, set environment variables 'path' for Java for windows or linux machine.<br
 
 3) Clone repository [https://github.com/viszjag/weather-comparator.git] in your system.
 
-4) Configuration file <b>config_env.properties</b> file is present at path: /weather-comparator/src/main/java/Config/. Here you can set config values like url, city, browser(can also be passed via testng.xml), weather we need to run on local machine or remotely on browserstack, temperature unit, variance, api key, baseURI, etc.
-For exeecution on browserstack, please provide username and access key in config file.
+4) Configuration file <b>config_env.properties</b> file is present at path: /weather-comparator/src/main/java/Config/.<br>
+Here you can set config values like url, city, browser(can also be passed via testng.xml), weather we need to run on local machine orremotely on browserstack,<br>
+temperature unit, variance, api key, baseURI, etc.<br>
+For execution on browserstack, please provide username and access key in config file.
 
 5) Open command prompt and navigate to directory path were repository was cloned or contains .git file
 <b>Execute following command on command prompt:</b><br>
