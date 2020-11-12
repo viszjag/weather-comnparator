@@ -3,11 +3,11 @@
 
 1) Make sure java is installed on your system.
 
-Also, set environment variables 'path' for Java for windows or linux machine
+Also, set environment variables 'path' for Java for windows or linux machine.<br>                                                                 
 <b>Follow steps as mentioned in below link:</b><br>
 [Setup enviroment path for variables](https://docs.oracle.com/javase/tutorial/essential/environment/paths.html)
 
-2) Install Maven and set environment variable for same.
+2) Install Maven and set environment variable for same.<br>                                                                                     
 <b>Follow steps as mentioned in below link:</b><br>
 [Install Maven on windows, linux.](http://www.baeldung.com/install-maven-on-windows-linux-mac)
 
@@ -27,15 +27,16 @@ This will execute the testscript.
 6) Application execution log file will generated within the project folder - Application.log <br>
 <b>Alternatively, html report is generated at /weather-comparator/target/surefire-reports/emailable-report.html</b><br>
 
-7) User can also import project into eclipse or intellij IDE as a maven project.
+7) User can also import project into eclipse or intellij IDE as a maven project.<br>
 <b> Make sure you have installed maven plugin inside IDE. </b><br>
-<b> Just run pom.xml inside project folder as: i) maven Ccean and then ii) maven test </b><br>
+ Just run pom.xml inside project folder as: i) maven clean and then ii) maven test <br>
 
 8) Also, can install testng plugin for IDE, and then run testng.xml as a TestNG Suite<br>
 
-9) Tests related to UI and API are listed in different packages at com.ui.tests and com.api.tests respectively.  
+9) Tests related to UI and API are listed in different packages at com.ui.tests and com.api.tests respectively. <br> 
 They also have separate testng suites files placed at /weather-comparator/TestSuites.
 
 
 
 
+ 
