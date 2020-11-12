@@ -1,7 +1,7 @@
 target
-Screenshots/*
+test-output
+bin
 .classpath
 *.class
 .settings
 Application.log
-test-output
