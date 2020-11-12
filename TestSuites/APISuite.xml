@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API Suite" verbose="1">
+	<test name="City Weather Details">
+		<classes>
+			<class name="com.api.tests.Test_CityWeather" />
+		</classes>
+	</test>
+</suite>

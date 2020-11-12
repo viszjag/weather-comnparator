@@ -1,0 +1,7 @@
+target
+Screenshots/*
+.classpath
+*.class
+.settings
+Application.log
+test-output

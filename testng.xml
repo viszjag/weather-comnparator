@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Weather Report Suite">
+	<suite-files>
+		<suite-file path="./TestSuites/APISuite.xml" />
+		<suite-file path="./TestSuites/UISuite.xml" />
+	</suite-files>
+</suite>
